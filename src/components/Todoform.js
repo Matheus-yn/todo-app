@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Todo from './Todo'
 
 
 
@@ -19,6 +20,7 @@ function Todoform(props) {
 
     setInput('')
     
+    
   }
 
 
@@ -28,6 +30,7 @@ function Todoform(props) {
         <input 
           onChange={handleChange}
           type="text" 
+          name='text'
           className="todo-input"
           placeholder='Add a todo'
           value={input}
