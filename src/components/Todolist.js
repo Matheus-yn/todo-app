@@ -2,12 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Todoform from './Todoform'
 import Todo from './Todo'
 
-
-
 function Todolist() {
   const [todos, setTodos] = useState([])
-
-  
   useEffect(() => {
     localStorage.setItem("localstoragekey", JSON.stringify(todos))
   }, [todos])
@@ -19,9 +15,6 @@ function Todolist() {
       
     
   }, [])
-
-  
-  
 
   const addTodo = todo => {
     if (!todo.text) {

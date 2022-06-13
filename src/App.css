@@ -69,7 +69,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgb(107, 34, 34) 0%,
-    rgb(180, 12, 110) 100%
+    rgb(131, 17, 83) 100%
   );
   color: #fff;
   text-transform: capitalize;
@@ -83,7 +83,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(20, 159, 255, 1) 0%,
-    rgba(17, 122, 255, 1) 100%
+    rgb(11, 69, 145) 100%
   );
   padding: 16px 22px;
 }
