@@ -8,7 +8,7 @@ function Todoform(props) {
   const handleSubmit = e => {
     e.preventDefault();
     props.onSubmit({
-      id: Math.floor(Math.random() * 10000),
+      id: Math.floor(Math.random() * 100000),
       text: input
     })
     setInput('')
